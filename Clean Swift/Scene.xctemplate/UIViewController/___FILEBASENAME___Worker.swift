@@ -13,10 +13,10 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___Worker
 {
-  // MARK: Business Logic
-  
-  func doSomeWork()
-  {
-    // NOTE: Do the work
-  }
+    // MARK: Business Logic
+
+    func doSomeWork()
+    {
+        // NOTE: Do the work
+    }
 }

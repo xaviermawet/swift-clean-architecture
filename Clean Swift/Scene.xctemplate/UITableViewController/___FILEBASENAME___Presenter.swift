@@ -13,25 +13,25 @@ import UIKit
 
 protocol ___FILEBASENAMEASIDENTIFIER___PresenterInput
 {
-  func presentSomething(response: ___FILEBASENAMEASIDENTIFIER___Response)
+    func presentSomething(response: ___FILEBASENAMEASIDENTIFIER___Response)
 }
 
 protocol ___FILEBASENAMEASIDENTIFIER___PresenterOutput: class
 {
-  func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel)
+    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel)
 }
 
 class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterInput
 {
-  weak var output: ___FILEBASENAMEASIDENTIFIER___PresenterOutput!
-  
-  // MARK: Presentation logic
-  
-  func presentSomething(response: ___FILEBASENAMEASIDENTIFIER___Response)
-  {
-    // NOTE: Format the response from the Interactor and pass the result back to the View Controller
-    
-    let viewModel = ___FILEBASENAMEASIDENTIFIER___ViewModel()
-    output.displaySomething(viewModel)
-  }
+    weak var output: ___FILEBASENAMEASIDENTIFIER___PresenterOutput!
+
+    // MARK: Presentation logic
+
+    func presentSomething(response: ___FILEBASENAMEASIDENTIFIER___Response)
+    {
+        // NOTE: Format the response from the Interactor and pass the result back to the View Controller
+
+        let viewModel = ___FILEBASENAMEASIDENTIFIER___ViewModel()
+        output.displaySomething(viewModel)
+    }
 }
