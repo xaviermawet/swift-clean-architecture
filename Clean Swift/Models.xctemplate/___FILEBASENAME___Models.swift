@@ -11,14 +11,20 @@
 
 import UIKit
 
-struct ___FILEBASENAMEASIDENTIFIER___Request
+struct ___FILEBASENAMEASIDENTIFIER___
 {
-}
+    struct UseCase
+    {
+        struct Request
+        {
+        }
 
-struct ___FILEBASENAMEASIDENTIFIER___Response
-{
-}
+        struct Response
+        {
+        }
 
-struct ___FILEBASENAMEASIDENTIFIER___ViewModel
-{
+        struct ViewModel
+        {
+        }
+    }
 }
